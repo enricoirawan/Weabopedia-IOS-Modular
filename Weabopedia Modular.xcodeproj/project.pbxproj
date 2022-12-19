@@ -11,11 +11,11 @@
 		171BDE47294EDFB900F96EA8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 171BDE46294EDFB900F96EA8 /* SceneDelegate.swift */; };
 		171BDE49294EDFB900F96EA8 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 171BDE48294EDFB900F96EA8 /* BaseViewController.swift */; };
 		171BDE4E294EDFB900F96EA8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 171BDE4D294EDFB900F96EA8 /* Assets.xcassets */; };
-		171BDE5C294EE1A600F96EA8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 171BDE5A294EE1A600F96EA8 /* LaunchScreen.storyboard */; };
 		177BC7662950767A00B7BEAB /* Search in Frameworks */ = {isa = PBXBuildFile; productRef = 177BC7652950767A00B7BEAB /* Search */; };
 		177BC76929507A3E00B7BEAB /* Account in Frameworks */ = {isa = PBXBuildFile; productRef = 177BC76829507A3E00B7BEAB /* Account */; };
 		177BC7722950B14800B7BEAB /* .swiftlint.yml in Resources */ = {isa = PBXBuildFile; fileRef = 177BC7712950B14800B7BEAB /* .swiftlint.yml */; };
 		177BC7BF2950BDB000B7BEAB /* Weabopedia_ModularTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 177BC7BE2950BDB000B7BEAB /* Weabopedia_ModularTests.swift */; };
+		177BC7D22950CDAA00B7BEAB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 177BC7D02950CDAA00B7BEAB /* LaunchScreen.storyboard */; };
 		17CBD86E294F4735004336DC /* Core in Frameworks */ = {isa = PBXBuildFile; productRef = 17CBD86D294F4735004336DC /* Core */; };
 		17CBD870294F4738004336DC /* Home in Frameworks */ = {isa = PBXBuildFile; productRef = 17CBD86F294F4738004336DC /* Home */; };
 		17CBD872294F473C004336DC /* Shared in Frameworks */ = {isa = PBXBuildFile; productRef = 17CBD871294F473C004336DC /* Shared */; };
@@ -39,7 +39,6 @@
 		171BDE48294EDFB900F96EA8 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		171BDE4D294EDFB900F96EA8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		171BDE52294EDFB900F96EA8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		171BDE5B294EE1A600F96EA8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = ../../../Weabopedia/Weabopedia/Resource/Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		177BC76A2950AFBC00B7BEAB /* Shared */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = Shared; sourceTree = "<group>"; };
 		177BC76B2950AFBC00B7BEAB /* Detail */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = Detail; sourceTree = "<group>"; };
 		177BC76C2950AFBC00B7BEAB /* Search */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = Search; sourceTree = "<group>"; };
@@ -51,6 +50,7 @@
 		177BC7732950B3DB00B7BEAB /* codemagic.yaml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = codemagic.yaml; sourceTree = "<group>"; };
 		177BC7BC2950BDB000B7BEAB /* Weabopedia ModularTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Weabopedia ModularTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		177BC7BE2950BDB000B7BEAB /* Weabopedia_ModularTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weabopedia_ModularTests.swift; sourceTree = "<group>"; };
+		177BC7D12950CDAA00B7BEAB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,7 +129,7 @@
 			isa = PBXGroup;
 			children = (
 				171BDE4D294EDFB900F96EA8 /* Assets.xcassets */,
-				171BDE5A294EE1A600F96EA8 /* LaunchScreen.storyboard */,
+				177BC7D02950CDAA00B7BEAB /* LaunchScreen.storyboard */,
 			);
 			path = Resource;
 			sourceTree = "<group>";
@@ -239,9 +239,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				177BC7D22950CDAA00B7BEAB /* LaunchScreen.storyboard in Resources */,
 				177BC7722950B14800B7BEAB /* .swiftlint.yml in Resources */,
 				171BDE4E294EDFB900F96EA8 /* Assets.xcassets in Resources */,
-				171BDE5C294EE1A600F96EA8 /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -304,10 +304,10 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		171BDE5A294EE1A600F96EA8 /* LaunchScreen.storyboard */ = {
+		177BC7D02950CDAA00B7BEAB /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				171BDE5B294EE1A600F96EA8 /* Base */,
+				177BC7D12950CDAA00B7BEAB /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
