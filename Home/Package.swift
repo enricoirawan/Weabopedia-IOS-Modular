@@ -18,7 +18,7 @@ let package = Package(
         .package(url: "https://github.com/SDWebImage/SDWebImage.git", from: "5.1.0"),
         .package(url: "https://github.com/Swinject/Swinject.git", from: "2.8.0"),
         .package(url: "https://github.com/Juanpe/SkeletonView.git", from: "1.7.0"),
-        .package(path: "Core"),
+        .package(url: "https://github.com/enricoirawan/Weabopedia-IOS-Core.git", from: Version(stringLiteral: "1.0.0")),
         .package(path: "Shared"),
         .package(path: "Detail")
     ],
@@ -28,7 +28,7 @@ let package = Package(
         .target(
             name: "Home",
             dependencies: [
-                "Core",
+                .product(name: "Core", package: "Weabopedia-IOS-Core"),
                 "Shared",
                 "Detail",
                 "Alamofire",

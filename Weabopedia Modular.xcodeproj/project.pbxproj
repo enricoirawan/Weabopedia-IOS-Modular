@@ -43,7 +43,6 @@
 		177BC76B2950AFBC00B7BEAB /* Detail */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = Detail; sourceTree = "<group>"; };
 		177BC76C2950AFBC00B7BEAB /* Search */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = Search; sourceTree = "<group>"; };
 		177BC76D2950AFBC00B7BEAB /* Home */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = Home; sourceTree = "<group>"; };
-		177BC76E2950AFBD00B7BEAB /* Core */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = Core; sourceTree = "<group>"; };
 		177BC76F2950AFBD00B7BEAB /* Favorite */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = Favorite; sourceTree = "<group>"; };
 		177BC7702950AFBD00B7BEAB /* Account */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = Account; sourceTree = "<group>"; };
 		177BC7712950B14800B7BEAB /* .swiftlint.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.yaml; path = .swiftlint.yml; sourceTree = "<group>"; };
@@ -85,7 +84,6 @@
 				177BC76F2950AFBD00B7BEAB /* Favorite */,
 				177BC76D2950AFBC00B7BEAB /* Home */,
 				177BC7702950AFBD00B7BEAB /* Account */,
-				177BC76E2950AFBD00B7BEAB /* Core */,
 				177BC76B2950AFBC00B7BEAB /* Detail */,
 				177BC76C2950AFBC00B7BEAB /* Search */,
 				177BC76A2950AFBC00B7BEAB /* Shared */,

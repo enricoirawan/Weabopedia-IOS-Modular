@@ -15,7 +15,7 @@ let package = Package(
     dependencies: [
         // Dependencies declare other packages that this package depends on.
         .package(url: "https://github.com/realm/realm-swift.git", .upToNextMajor(from: Version(stringLiteral: "10.33.0"))),
-        .package(path: "Core"),
+        .package(url: "https://github.com/enricoirawan/Weabopedia-IOS-Core.git", from: Version(stringLiteral: "1.0.0")),
         .package(path: "Shared"),
         .package(path: "Detail")
     ],
@@ -25,7 +25,7 @@ let package = Package(
         .target(
             name: "Favorite",
             dependencies: [
-                "Core",
+                .product(name: "Core", package: "Weabopedia-IOS-Core"),
                 "Shared",
                 "Detail",
                 .product(name: "RealmSwift", package: "realm-swift")

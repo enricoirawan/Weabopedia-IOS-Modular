@@ -6,13 +6,14 @@
 //
 
 import UIKit
+import Shared
+
 public class AccountViewController: UIViewController {
     // MARK: - Properties
     private var imageProfileHeader: AccountHeaderUIView?
 
     private let accountTableView: UITableView = {
         let tableView = UITableView(frame: .zero, style: .plain)
-        tableView.translatesAutoresizingMaskIntoConstraints = false
         tableView.register(UITableViewCell.self, forCellReuseIdentifier: "AccountTableViewCell")
         return tableView
     }()
@@ -41,14 +42,12 @@ public class AccountViewController: UIViewController {
 
     // MARK: - Helper
     private func configureConstraint() {
-        let accountTableViewConstraints = [
-            accountTableView.topAnchor.constraint(equalTo: view.topAnchor),
-            view.bottomAnchor.constraint(equalTo: accountTableView.bottomAnchor),
-            accountTableView.leadingAnchor.constraint(equalTo: view.leadingAnchor),
-            view.trailingAnchor.constraint(equalTo: accountTableView.trailingAnchor)
-        ]
-
-        NSLayoutConstraint.activate(accountTableViewConstraints)
+        accountTableView.anchor(
+            top: view.topAnchor,
+            leading: view.leadingAnchor,
+            bottom: view.bottomAnchor,
+            trailing: view.trailingAnchor
+        )
     }
 }
 
