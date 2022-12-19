@@ -1,5 +1,5 @@
-workflows:  weabopedia-modular: # workflow ID
-    name: Weabopedia Modular # workflow name
+workflows:  ios-project-debug: # workflow ID
+    name: iOS debug # workflow name
     environment:
       xcode: latest
       cocoapods: default
