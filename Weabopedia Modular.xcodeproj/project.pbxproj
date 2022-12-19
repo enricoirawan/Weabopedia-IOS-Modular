@@ -15,6 +15,8 @@
 		177BC7662950767A00B7BEAB /* Search in Frameworks */ = {isa = PBXBuildFile; productRef = 177BC7652950767A00B7BEAB /* Search */; };
 		177BC76929507A3E00B7BEAB /* Account in Frameworks */ = {isa = PBXBuildFile; productRef = 177BC76829507A3E00B7BEAB /* Account */; };
 		177BC7722950B14800B7BEAB /* .swiftlint.yml in Resources */ = {isa = PBXBuildFile; fileRef = 177BC7712950B14800B7BEAB /* .swiftlint.yml */; };
+		177BC7B62950B9F200B7BEAB /* testingUITests in Resources */ = {isa = PBXBuildFile; fileRef = 177BC7B42950B9F200B7BEAB /* testingUITests */; };
+		177BC7B72950B9F200B7BEAB /* testingTests in Resources */ = {isa = PBXBuildFile; fileRef = 177BC7B52950B9F200B7BEAB /* testingTests */; };
 		17CBD86E294F4735004336DC /* Core in Frameworks */ = {isa = PBXBuildFile; productRef = 17CBD86D294F4735004336DC /* Core */; };
 		17CBD870294F4738004336DC /* Home in Frameworks */ = {isa = PBXBuildFile; productRef = 17CBD86F294F4738004336DC /* Home */; };
 		17CBD872294F473C004336DC /* Shared in Frameworks */ = {isa = PBXBuildFile; productRef = 17CBD871294F473C004336DC /* Shared */; };
@@ -38,6 +40,8 @@
 		177BC7702950AFBD00B7BEAB /* Account */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = Account; sourceTree = "<group>"; };
 		177BC7712950B14800B7BEAB /* .swiftlint.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.yaml; path = .swiftlint.yml; sourceTree = "<group>"; };
 		177BC7732950B3DB00B7BEAB /* codemagic.yaml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = codemagic.yaml; sourceTree = "<group>"; };
+		177BC7B42950B9F200B7BEAB /* testingUITests */ = {isa = PBXFileReference; lastKnownFileType = folder; path = testingUITests; sourceTree = "<group>"; };
+		177BC7B52950B9F200B7BEAB /* testingTests */ = {isa = PBXFileReference; lastKnownFileType = folder; path = testingTests; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +92,8 @@
 			children = (
 				171BDE59294EE0D000F96EA8 /* Resource */,
 				171BDE58294EE0CD00F96EA8 /* App */,
+				177BC7B52950B9F200B7BEAB /* testingTests */,
+				177BC7B42950B9F200B7BEAB /* testingUITests */,
 				171BDE52294EDFB900F96EA8 /* Info.plist */,
 			);
 			path = "Weabopedia Modular";
@@ -187,6 +193,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				177BC7722950B14800B7BEAB /* .swiftlint.yml in Resources */,
+				177BC7B62950B9F200B7BEAB /* testingUITests in Resources */,
+				177BC7B72950B9F200B7BEAB /* testingTests in Resources */,
 				171BDE4E294EDFB900F96EA8 /* Assets.xcassets in Resources */,
 				171BDE5C294EE1A600F96EA8 /* LaunchScreen.storyboard in Resources */,
 			);
