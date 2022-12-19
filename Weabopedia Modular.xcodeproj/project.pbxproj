@@ -37,6 +37,7 @@
 		177BC76F2950AFBD00B7BEAB /* Favorite */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = Favorite; sourceTree = "<group>"; };
 		177BC7702950AFBD00B7BEAB /* Account */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = Account; sourceTree = "<group>"; };
 		177BC7712950B14800B7BEAB /* .swiftlint.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.yaml; path = .swiftlint.yml; sourceTree = "<group>"; };
+		177BC7732950B3DB00B7BEAB /* codemagic.yaml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = codemagic.yaml; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +60,7 @@
 		171BDE38294EDFB900F96EA8 = {
 			isa = PBXGroup;
 			children = (
+				177BC7732950B3DB00B7BEAB /* codemagic.yaml */,
 				177BC7712950B14800B7BEAB /* .swiftlint.yml */,
 				177BC76F2950AFBD00B7BEAB /* Favorite */,
 				177BC76D2950AFBC00B7BEAB /* Home */,
