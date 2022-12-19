@@ -15,11 +15,22 @@
 		177BC7662950767A00B7BEAB /* Search in Frameworks */ = {isa = PBXBuildFile; productRef = 177BC7652950767A00B7BEAB /* Search */; };
 		177BC76929507A3E00B7BEAB /* Account in Frameworks */ = {isa = PBXBuildFile; productRef = 177BC76829507A3E00B7BEAB /* Account */; };
 		177BC7722950B14800B7BEAB /* .swiftlint.yml in Resources */ = {isa = PBXBuildFile; fileRef = 177BC7712950B14800B7BEAB /* .swiftlint.yml */; };
+		177BC7BF2950BDB000B7BEAB /* Weabopedia_ModularTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 177BC7BE2950BDB000B7BEAB /* Weabopedia_ModularTests.swift */; };
 		17CBD86E294F4735004336DC /* Core in Frameworks */ = {isa = PBXBuildFile; productRef = 17CBD86D294F4735004336DC /* Core */; };
 		17CBD870294F4738004336DC /* Home in Frameworks */ = {isa = PBXBuildFile; productRef = 17CBD86F294F4738004336DC /* Home */; };
 		17CBD872294F473C004336DC /* Shared in Frameworks */ = {isa = PBXBuildFile; productRef = 17CBD871294F473C004336DC /* Shared */; };
 		17E6712029502EFF00234C98 /* Favorite in Frameworks */ = {isa = PBXBuildFile; productRef = 17E6711F29502EFF00234C98 /* Favorite */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		177BC7C02950BDB000B7BEAB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 171BDE39294EDFB900F96EA8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 171BDE40294EDFB900F96EA8;
+			remoteInfo = "Weabopedia Modular";
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		171BDE41294EDFB900F96EA8 /* Weabopedia Modular.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Weabopedia Modular.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -38,6 +49,8 @@
 		177BC7702950AFBD00B7BEAB /* Account */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = Account; sourceTree = "<group>"; };
 		177BC7712950B14800B7BEAB /* .swiftlint.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.yaml; path = .swiftlint.yml; sourceTree = "<group>"; };
 		177BC7732950B3DB00B7BEAB /* codemagic.yaml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = codemagic.yaml; sourceTree = "<group>"; };
+		177BC7BC2950BDB000B7BEAB /* Weabopedia ModularTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Weabopedia ModularTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		177BC7BE2950BDB000B7BEAB /* Weabopedia_ModularTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weabopedia_ModularTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +64,13 @@
 				17CBD86E294F4735004336DC /* Core in Frameworks */,
 				17CBD870294F4738004336DC /* Home in Frameworks */,
 				17CBD872294F473C004336DC /* Shared in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		177BC7B92950BDB000B7BEAB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +90,7 @@
 				177BC76C2950AFBC00B7BEAB /* Search */,
 				177BC76A2950AFBC00B7BEAB /* Shared */,
 				171BDE43294EDFB900F96EA8 /* Weabopedia Modular */,
+				177BC7BD2950BDB000B7BEAB /* Weabopedia ModularTests */,
 				171BDE42294EDFB900F96EA8 /* Products */,
 				17CBD86C294F4735004336DC /* Frameworks */,
 			);
@@ -79,6 +100,7 @@
 			isa = PBXGroup;
 			children = (
 				171BDE41294EDFB900F96EA8 /* Weabopedia Modular.app */,
+				177BC7BC2950BDB000B7BEAB /* Weabopedia ModularTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -110,6 +132,14 @@
 				171BDE5A294EE1A600F96EA8 /* LaunchScreen.storyboard */,
 			);
 			path = Resource;
+			sourceTree = "<group>";
+		};
+		177BC7BD2950BDB000B7BEAB /* Weabopedia ModularTests */ = {
+			isa = PBXGroup;
+			children = (
+				177BC7BE2950BDB000B7BEAB /* Weabopedia_ModularTests.swift */,
+			);
+			path = "Weabopedia ModularTests";
 			sourceTree = "<group>";
 		};
 		17CBD86C294F4735004336DC /* Frameworks */ = {
@@ -148,6 +178,24 @@
 			productReference = 171BDE41294EDFB900F96EA8 /* Weabopedia Modular.app */;
 			productType = "com.apple.product-type.application";
 		};
+		177BC7BB2950BDB000B7BEAB /* Weabopedia ModularTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 177BC7C22950BDB000B7BEAB /* Build configuration list for PBXNativeTarget "Weabopedia ModularTests" */;
+			buildPhases = (
+				177BC7B82950BDB000B7BEAB /* Sources */,
+				177BC7B92950BDB000B7BEAB /* Frameworks */,
+				177BC7BA2950BDB000B7BEAB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				177BC7C12950BDB000B7BEAB /* PBXTargetDependency */,
+			);
+			name = "Weabopedia ModularTests";
+			productName = "Weabopedia ModularTests";
+			productReference = 177BC7BC2950BDB000B7BEAB /* Weabopedia ModularTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -160,6 +208,10 @@
 				TargetAttributes = {
 					171BDE40294EDFB900F96EA8 = {
 						CreatedOnToolsVersion = 14.0;
+					};
+					177BC7BB2950BDB000B7BEAB = {
+						CreatedOnToolsVersion = 14.0;
+						TestTargetID = 171BDE40294EDFB900F96EA8;
 					};
 				};
 			};
@@ -177,6 +229,7 @@
 			projectRoot = "";
 			targets = (
 				171BDE40294EDFB900F96EA8 /* Weabopedia Modular */,
+				177BC7BB2950BDB000B7BEAB /* Weabopedia ModularTests */,
 			);
 		};
 /* End PBXProject section */
@@ -189,6 +242,13 @@
 				177BC7722950B14800B7BEAB /* .swiftlint.yml in Resources */,
 				171BDE4E294EDFB900F96EA8 /* Assets.xcassets in Resources */,
 				171BDE5C294EE1A600F96EA8 /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		177BC7BA2950BDB000B7BEAB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -225,7 +285,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		177BC7B82950BDB000B7BEAB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				177BC7BF2950BDB000B7BEAB /* Weabopedia_ModularTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		177BC7C12950BDB000B7BEAB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 171BDE40294EDFB900F96EA8 /* Weabopedia Modular */;
+			targetProxy = 177BC7C02950BDB000B7BEAB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		171BDE5A294EE1A600F96EA8 /* LaunchScreen.storyboard */ = {
@@ -405,6 +481,40 @@
 			};
 			name = Release;
 		};
+		177BC7C32950BDB000B7BEAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.enrico.Weabopedia-ModularTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Weabopedia Modular.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Weabopedia Modular";
+			};
+			name = Debug;
+		};
+		177BC7C42950BDB000B7BEAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.enrico.Weabopedia-ModularTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Weabopedia Modular.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Weabopedia Modular";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -422,6 +532,15 @@
 			buildConfigurations = (
 				171BDE56294EDFB900F96EA8 /* Debug */,
 				171BDE57294EDFB900F96EA8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		177BC7C22950BDB000B7BEAB /* Build configuration list for PBXNativeTarget "Weabopedia ModularTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				177BC7C32950BDB000B7BEAB /* Debug */,
+				177BC7C42950BDB000B7BEAB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
