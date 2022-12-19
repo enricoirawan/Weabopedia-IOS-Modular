@@ -1,0 +1,457 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		171BDE45294EDFB900F96EA8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 171BDE44294EDFB900F96EA8 /* AppDelegate.swift */; };
+		171BDE47294EDFB900F96EA8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 171BDE46294EDFB900F96EA8 /* SceneDelegate.swift */; };
+		171BDE49294EDFB900F96EA8 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 171BDE48294EDFB900F96EA8 /* BaseViewController.swift */; };
+		171BDE4E294EDFB900F96EA8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 171BDE4D294EDFB900F96EA8 /* Assets.xcassets */; };
+		171BDE5C294EE1A600F96EA8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 171BDE5A294EE1A600F96EA8 /* LaunchScreen.storyboard */; };
+		177BC7662950767A00B7BEAB /* Search in Frameworks */ = {isa = PBXBuildFile; productRef = 177BC7652950767A00B7BEAB /* Search */; };
+		177BC76929507A3E00B7BEAB /* Account in Frameworks */ = {isa = PBXBuildFile; productRef = 177BC76829507A3E00B7BEAB /* Account */; };
+		177BC7722950B14800B7BEAB /* .swiftlint.yml in Resources */ = {isa = PBXBuildFile; fileRef = 177BC7712950B14800B7BEAB /* .swiftlint.yml */; };
+		17CBD86E294F4735004336DC /* Core in Frameworks */ = {isa = PBXBuildFile; productRef = 17CBD86D294F4735004336DC /* Core */; };
+		17CBD870294F4738004336DC /* Home in Frameworks */ = {isa = PBXBuildFile; productRef = 17CBD86F294F4738004336DC /* Home */; };
+		17CBD872294F473C004336DC /* Shared in Frameworks */ = {isa = PBXBuildFile; productRef = 17CBD871294F473C004336DC /* Shared */; };
+		17E6712029502EFF00234C98 /* Favorite in Frameworks */ = {isa = PBXBuildFile; productRef = 17E6711F29502EFF00234C98 /* Favorite */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		171BDE41294EDFB900F96EA8 /* Weabopedia Modular.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Weabopedia Modular.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		171BDE44294EDFB900F96EA8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		171BDE46294EDFB900F96EA8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		171BDE48294EDFB900F96EA8 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		171BDE4D294EDFB900F96EA8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		171BDE52294EDFB900F96EA8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		171BDE5B294EE1A600F96EA8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = ../../../Weabopedia/Weabopedia/Resource/Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		177BC76A2950AFBC00B7BEAB /* Shared */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = Shared; sourceTree = "<group>"; };
+		177BC76B2950AFBC00B7BEAB /* Detail */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = Detail; sourceTree = "<group>"; };
+		177BC76C2950AFBC00B7BEAB /* Search */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = Search; sourceTree = "<group>"; };
+		177BC76D2950AFBC00B7BEAB /* Home */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = Home; sourceTree = "<group>"; };
+		177BC76E2950AFBD00B7BEAB /* Core */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = Core; sourceTree = "<group>"; };
+		177BC76F2950AFBD00B7BEAB /* Favorite */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = Favorite; sourceTree = "<group>"; };
+		177BC7702950AFBD00B7BEAB /* Account */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = Account; sourceTree = "<group>"; };
+		177BC7712950B14800B7BEAB /* .swiftlint.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.yaml; path = .swiftlint.yml; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		171BDE3E294EDFB900F96EA8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				177BC76929507A3E00B7BEAB /* Account in Frameworks */,
+				177BC7662950767A00B7BEAB /* Search in Frameworks */,
+				17E6712029502EFF00234C98 /* Favorite in Frameworks */,
+				17CBD86E294F4735004336DC /* Core in Frameworks */,
+				17CBD870294F4738004336DC /* Home in Frameworks */,
+				17CBD872294F473C004336DC /* Shared in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		171BDE38294EDFB900F96EA8 = {
+			isa = PBXGroup;
+			children = (
+				177BC7712950B14800B7BEAB /* .swiftlint.yml */,
+				177BC76F2950AFBD00B7BEAB /* Favorite */,
+				177BC76D2950AFBC00B7BEAB /* Home */,
+				177BC7702950AFBD00B7BEAB /* Account */,
+				177BC76E2950AFBD00B7BEAB /* Core */,
+				177BC76B2950AFBC00B7BEAB /* Detail */,
+				177BC76C2950AFBC00B7BEAB /* Search */,
+				177BC76A2950AFBC00B7BEAB /* Shared */,
+				171BDE43294EDFB900F96EA8 /* Weabopedia Modular */,
+				171BDE42294EDFB900F96EA8 /* Products */,
+				17CBD86C294F4735004336DC /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		171BDE42294EDFB900F96EA8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				171BDE41294EDFB900F96EA8 /* Weabopedia Modular.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		171BDE43294EDFB900F96EA8 /* Weabopedia Modular */ = {
+			isa = PBXGroup;
+			children = (
+				171BDE59294EE0D000F96EA8 /* Resource */,
+				171BDE58294EE0CD00F96EA8 /* App */,
+				171BDE52294EDFB900F96EA8 /* Info.plist */,
+			);
+			path = "Weabopedia Modular";
+			sourceTree = "<group>";
+		};
+		171BDE58294EE0CD00F96EA8 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				171BDE44294EDFB900F96EA8 /* AppDelegate.swift */,
+				171BDE46294EDFB900F96EA8 /* SceneDelegate.swift */,
+				171BDE48294EDFB900F96EA8 /* BaseViewController.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		171BDE59294EE0D000F96EA8 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				171BDE4D294EDFB900F96EA8 /* Assets.xcassets */,
+				171BDE5A294EE1A600F96EA8 /* LaunchScreen.storyboard */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		17CBD86C294F4735004336DC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		171BDE40294EDFB900F96EA8 /* Weabopedia Modular */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 171BDE55294EDFB900F96EA8 /* Build configuration list for PBXNativeTarget "Weabopedia Modular" */;
+			buildPhases = (
+				171BDE3D294EDFB900F96EA8 /* Sources */,
+				171BDE3E294EDFB900F96EA8 /* Frameworks */,
+				171BDE3F294EDFB900F96EA8 /* Resources */,
+				171BDE5F294EE21200F96EA8 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Weabopedia Modular";
+			packageProductDependencies = (
+				17CBD86D294F4735004336DC /* Core */,
+				17CBD86F294F4738004336DC /* Home */,
+				17CBD871294F473C004336DC /* Shared */,
+				17E6711F29502EFF00234C98 /* Favorite */,
+				177BC7652950767A00B7BEAB /* Search */,
+				177BC76829507A3E00B7BEAB /* Account */,
+			);
+			productName = "Weabopedia Modular";
+			productReference = 171BDE41294EDFB900F96EA8 /* Weabopedia Modular.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		171BDE39294EDFB900F96EA8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					171BDE40294EDFB900F96EA8 = {
+						CreatedOnToolsVersion = 14.0;
+					};
+				};
+			};
+			buildConfigurationList = 171BDE3C294EDFB900F96EA8 /* Build configuration list for PBXProject "Weabopedia Modular" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 171BDE38294EDFB900F96EA8;
+			productRefGroup = 171BDE42294EDFB900F96EA8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				171BDE40294EDFB900F96EA8 /* Weabopedia Modular */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		171BDE3F294EDFB900F96EA8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				177BC7722950B14800B7BEAB /* .swiftlint.yml in Resources */,
+				171BDE4E294EDFB900F96EA8 /* Assets.xcassets in Resources */,
+				171BDE5C294EE1A600F96EA8 /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		171BDE5F294EE21200F96EA8 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export PATH=\"$PATH:/opt/homebrew/bin\"\nif which swiftlint >/dev/null; then \n    swiftlint \nelse \n    echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\" \nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		171BDE3D294EDFB900F96EA8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				171BDE49294EDFB900F96EA8 /* BaseViewController.swift in Sources */,
+				171BDE45294EDFB900F96EA8 /* AppDelegate.swift in Sources */,
+				171BDE47294EDFB900F96EA8 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		171BDE5A294EE1A600F96EA8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				171BDE5B294EE1A600F96EA8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		171BDE53294EDFB900F96EA8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		171BDE54294EDFB900F96EA8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		171BDE56294EDFB900F96EA8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Weabopedia Modular/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.enrico.Weabopedia-Modular";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		171BDE57294EDFB900F96EA8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Weabopedia Modular/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.enrico.Weabopedia-Modular";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		171BDE3C294EDFB900F96EA8 /* Build configuration list for PBXProject "Weabopedia Modular" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				171BDE53294EDFB900F96EA8 /* Debug */,
+				171BDE54294EDFB900F96EA8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		171BDE55294EDFB900F96EA8 /* Build configuration list for PBXNativeTarget "Weabopedia Modular" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				171BDE56294EDFB900F96EA8 /* Debug */,
+				171BDE57294EDFB900F96EA8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		177BC7652950767A00B7BEAB /* Search */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Search;
+		};
+		177BC76829507A3E00B7BEAB /* Account */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Account;
+		};
+		17CBD86D294F4735004336DC /* Core */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Core;
+		};
+		17CBD86F294F4738004336DC /* Home */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Home;
+		};
+		17CBD871294F473C004336DC /* Shared */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Shared;
+		};
+		17E6711F29502EFF00234C98 /* Favorite */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Favorite;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 171BDE39294EDFB900F96EA8 /* Project object */;
+}
