@@ -21,18 +21,18 @@ class BaseViewController: UITabBarController {
     private func setupBottomNav() {
         let homeImage = UIImage(systemName: "house")
         let homeVC = HomeModule().container.resolve(HomeViewController.self)
-        let home = templateNavigationController(image: homeImage, rootViewController: homeVC!, title: "Home")
+        let home = templateNavigationController(image: homeImage, rootViewController: homeVC!, title: "home".localized())
         
         let searchImage = UIImage(systemName: "magnifyingglass")
         let searchVC = SearchModule().container.resolve(SearchViewController.self)
-        let search = templateNavigationController(image: searchImage, rootViewController: searchVC!, title: "Search")
+        let search = templateNavigationController(image: searchImage, rootViewController: searchVC!, title: "search".localized())
         
         let favoriteImage = UIImage(systemName: "heart")
         let favoriteVC = FavoriteModule().container.resolve(FavoriteViewController.self)
-        let favorite = templateNavigationController(image: favoriteImage, rootViewController: favoriteVC!, title: "Favorite")
+        let favorite = templateNavigationController(image: favoriteImage, rootViewController: favoriteVC!, title: "favorite".localized())
         
         let accountImage = UIImage(systemName: "person")
-        let account = templateNavigationController(image: accountImage, rootViewController: AccountViewController(), title: "Account")
+        let account = templateNavigationController(image: accountImage, rootViewController: AccountViewController(), title: "account".localized())
         
         viewControllers = [home, search, favorite, account]
     }

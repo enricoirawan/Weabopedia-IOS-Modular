@@ -1,0 +1,12 @@
+/* 
+  Localizable.strings
+  Weabopedia Modular
+
+  Created by Enrico Irawan on 20/12/22.
+  
+*/
+
+"home" = "Home";
+"search" = "Search";
+"favorite" = "Favorite";
+"account" = "Account";
